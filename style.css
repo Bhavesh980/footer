@@ -1,0 +1,130 @@
+*
+{
+    /* border: 1px solid red; */
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+body{
+    display: flex;
+    align-items: end;
+    height: 100vh;
+}
+
+footer{
+    background-color: #232f3e;
+    width: 100vw;
+    
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+    padding: 10px;
+    background-color: #37475a;
+}
+
+#mainDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: #232f3e;
+    padding-top: 20px;
+}
+.subDivUl{
+    list-style-type: none;
+    display: flex;
+
+    flex-direction: column;
+    gap: 5px;
+    color:#dddddd ;
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+}
+.subDivUl a{
+    color:#dddddd ;
+    text-decoration: none;
+    transition: 0.1s;
+    
+}
+
+.subDivUl a:hover{
+    text-decoration: underline;
+    transition: 0.1s;
+    
+}
+
+img{
+   height: 50px; 
+   width: 100px;
+   
+}
+
+#mainDiv2{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     
+}
+
+#mainDiv2_counties
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#mainDiv3
+{
+    background-color: #131a22;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    gap: 10px;
+    
+    
+}
+.mainDiv3_subDiv
+{
+    /* margin-top: 10px; */
+}
+
+.mainDiv3_subDiv_div
+{
+    margin-top: 15px;
+}
+
+.mainDiv3_subDiv_div a{
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    font-size: small;
+ 
+}
+
+.mainDiv3_subDiv_div:hover{
+    text-decoration: underline;
+}
+
+#mainDiv2_counties {
+    padding-top: 20px;
+}
+
+#mainDiv2_counties a
+{
+text-decoration: none;
+color: #dddddd;
+font-size: small;
+
+}
+
+#mainDiv2_counties a:hover{
+    text-decoration: underline;
+}
